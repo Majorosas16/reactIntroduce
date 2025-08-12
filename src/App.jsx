@@ -1,5 +1,6 @@
 import './App.css'
 import Card from './components/Card/Card';
+import Form from './components/Form/Form'; // Importar el componente Form si es necesario
 
 // Aquí se importa los componentes que se vayan creando
 
@@ -18,8 +19,9 @@ function App() {
         <Card title='Holaaaa' description='quemasssssss' />
 
         <Card title='Holaaaa2' description='ya' />
-        <Card title='Holaaaa3' description='porfa' />
-        <Card title='Holaaaa4' description='basta' />
+
+{/* <Form /> */}
+
         
       </section>
     </>
